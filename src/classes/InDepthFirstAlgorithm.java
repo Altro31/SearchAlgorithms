@@ -40,6 +40,6 @@ public abstract class InDepthFirstAlgorithm extends UninformedSearchAlgorithm {
             }
         }
 
-        return null;
+        return aim;
     }
 }

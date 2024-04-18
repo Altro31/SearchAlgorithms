@@ -16,6 +16,4 @@ public abstract class UninformedSearchAlgorithm extends SearchAlgorithm {
     }
 
     protected abstract boolean testFunction(State actualState, State finalState);
-
-    protected abstract Float heuristicFunction(State actualState, State finalState);
 }
